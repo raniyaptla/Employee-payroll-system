@@ -3,8 +3,8 @@
 ## OOP Concepts Demonstrated:
 
 ### 1. Abstraction
-- We have an **abstract class** `Employee` that defines common things all employees share.
-- It has an abstract method `calculateSalary()` that is not defined in `Employee`, but its subclasses must provide their own version of this method.
+- An **abstract class** `Employee` that defines common things all employees share.
+- It has an abstract method `calculateSalary()` that is not defined in `Employee`, but its subclasses  provide their own version of this method.
 - This lets full-time and part-time employees each calculate their salary in their own way without changing the base `Employee` class.
 
 ### 2. Inheritance
